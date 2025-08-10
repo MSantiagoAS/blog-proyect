@@ -1,0 +1,72 @@
+body {
+  background-color: antiquewhite;
+  margin: 0;
+}
+* {
+  user-select: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  text-align: center;
+  background-color: rgb(49, 42, 33);
+  padding: 30px;
+  color: aliceblue;
+}
+.espacio {
+  width: 30px;
+  height: 60px;
+}
+.blogs {
+  /* con punto para que tome la clase */
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* para que los blogs queden en columna */
+  justify-content: center; /* centra vertical */
+  align-items: center; /* centra horizontal */
+}
+.blog {
+  background-color: #fff;
+  margin: 10px;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 20px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.blog:hover {
+  transform: rotate(1deg) scale(1.05);
+  box-shadow: 0 4px 8px rgba(102, 80, 80, 0.5);
+}
+
+.title {
+  font-size: 30px;
+  padding: 0px 0px 0px 10px;
+}
+code {
+  color: rgb(73, 71, 71);
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+.pie {
+  background-color: rgb(46, 46, 46);
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+.icons {
+  width: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  filter: invert(1);
+  transition: all 0.3s ease;
+  background-color: rgb(223, 223, 223);
+}
+.icons:hover {
+  transform: scale(1.15);
+}

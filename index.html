@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog de sntg.dev</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Blog de sntg.dev</h1>
+    </header>
+    <div class="espacio"></div>
+    <section class="blogs">
+      <article class="blog">
+        <h1 class="title">Olvidé el punto y el CSS se perdió en el limbo</h1>
+        <p class="descripcion">
+          Pasé horas buscando por qué mi contenedor no se centraba... Todo
+          porque escribí <code>blogs {}</code> en vez de <code>.blogs {}</code>.
+          Aprendí rápido: ¡los puntos no son opcionales!
+        </p>
+      </article>
+      <article class="blog">
+        <h1 class="title">Margin auto sin ancho es puro humo</h1>
+        <p class="descripcion">
+          Le puse <code>margin: 0 auto;</code> a un div sin definirle ancho.
+          Resultado: nada, seguía pegado a la izquierda. Desde ese día sé que
+          sin ancho fijo, no hay centrar que valga.
+        </p>
+      </article>
+      <article class="blog">
+        <h1 class="title">
+          Quise centrar con justify-content sin flex y quedé en blanco
+        </h1>
+        <p class="descripcion">
+          Puse <code>justify-content: center;</code> y me preguntaba qué pasaba.
+          ¿La verdad? Me faltó el <code>display: flex;</code>. CSS no hace
+          magia, hay que darle todo el combo.
+        </p>
+      </article>
+      <article class="blog">
+        <h1 class="title">El padding traicionero que me desarmó todo</h1>
+        <p class="descripcion">
+          Metí un padding gigante sin pensar y el centro se fue a la mierda.
+          Aprendí a medir esos espacios con lupa antes de tocar nada.
+        </p>
+      </article>
+      <article class="blog">
+        <h1 class="title">
+          Cuando el contenido es más ancho que el contenedor
+        </h1>
+        <p class="descripcion">
+          Centré mi contenedor pero el texto se salió y todo quedó feo. El
+          truco: siempre ajustar el contenido para que quepa y se vea pro.
+        </p>
+      </article>
+      <article class="blog">
+        <h1 class="title">Confundir text-align con margin auto</h1>
+        <p class="descripcion">
+          Quería centrar un div y usé <code>text-align: center;</code> en vez de
+          <code>margin: 0 auto;</code>. Resultado: solo el texto se centró, pero
+          el bloque no. Lección: cada cosa tiene su propiedad, no se mezclan.
+        </p>
+      </article>
+    </section>
+    <footer class="pie">
+      <a href="https://www.facebook.com/sntg.dev"
+        ><img class="icons" src="aseent/img/icons/facebook.png" alt=""
+      /></a>
+      <a href="https://github.com/MSantiagoAS"
+        ><img class="icons" src="aseent/img/icons/github.png" alt=""
+      /></a>
+      <a href="https://www.instagram.com/sntg.dev/"
+        ><img class="icons" src="aseent/img/icons/instagram.png" alt=""
+      /></a>
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=milthonagudelo1607@gmail.com"
+        ><img class="icons" src="aseent/img/icons/sobre.png" alt=""
+      /></a>
+      <a
+        href="https://wa.me/573027449827?text=Hola%20Santiago%2C%20vi%20tu%20blog%20y%20me%20interesa%20trabajar%20contigo"
+        ><img class="icons" src="aseent/img/icons/whatsapp.png" alt=""
+      /></a>
+    </footer>
+  </body>
+</html>
